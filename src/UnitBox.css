@@ -1,0 +1,20 @@
+.unitbox {
+  background-color: whitesmoke;
+  height: 150px;
+  width: 150px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .unitbox {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.unitbox__text {
+  background-color: whitesmoke;
+}
